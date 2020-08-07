@@ -1,0 +1,43 @@
+{
+  "name": "add-setting-prettier-for-package-json",
+  "version": "0.1.0",
+  "description": "This is a tool for use when writing JavaScript programs. Add the \"prettier\" setting that you have set in your config file to your package.json.",
+  "main": "index.js",
+  "bin": {
+    "add-setting-prettier-for-package-json": "index.js"
+  },
+  "scripts": {
+    "fmt": "prettier --write '**/*.{js,json,md}'",
+    "test": "mocha"
+  },
+  "keywords": [
+    "prettier",
+    "utils",
+    "setup",
+    "package.json"
+  ],
+  "author": "shinshin86 <shinshin86npm@gmail.com> (https://github.com/shinshin86)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinshin86/add-setting-prettier-for-package-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shinshin86/add-setting-prettier-for-package-json/issues"
+  },
+  "homepage": "https://github.com/shinshin86/add-setting-prettier-for-package-json#readme",
+  "engines": {
+    "node": ">= 10"
+  },
+  "dependencies": {
+    "config": "^3.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "prettier": "^2.0.5"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
