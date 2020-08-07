@@ -1,5 +1,8 @@
 # add-setting-prettier-for-package-json
 
+This Repository is still a WIP.
+It's still not working properly.
+
 This is a tool for use when writing JavaScript programs.
 Add the "prettier" setting that you have set in your config file to your package.json.
 
